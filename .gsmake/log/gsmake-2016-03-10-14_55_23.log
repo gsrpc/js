@@ -1,0 +1,56 @@
+2016-2-10 14:55:23.0246 gsmake (runner.lua:46) register taskgroup(precompile) :
+2016-2-10 14:55:23.0247 gsmake (runner.lua:48) 	from package [github.com/gsmake/gsrpc:snapshot]
+2016-2-10 14:55:23.0248 gsmake (runner.lua:46) register taskgroup(resources) :
+2016-2-10 14:55:23.0248 gsmake (runner.lua:48) 	from package [github.com/gsmake/gsrpc:snapshot]
+2016-2-10 14:55:23.0248 gsmake (runner.lua:46) register taskgroup(update) :
+2016-2-10 14:55:23.0249 gsmake (runner.lua:48) 	from package [github.com/gsmake/commands:snapshot]
+2016-2-10 14:55:23.0250 gsmake (runner.lua:46) register taskgroup(list) :
+2016-2-10 14:55:23.0250 gsmake (runner.lua:48) 	from package [github.com/gsmake/commands:snapshot]
+2016-2-10 14:55:23.0251 gsmake (runner.lua:46) register taskgroup(repo) :
+2016-2-10 14:55:23.0252 gsmake (runner.lua:48) 	from package [github.com/gsmake/commands:snapshot]
+2016-2-10 14:55:23.0252 gsmake (runner.lua:46) register taskgroup(cache) :
+2016-2-10 14:55:23.0253 gsmake (runner.lua:48) 	from package [github.com/gsmake/commands:snapshot]
+2016-2-10 14:55:23.0253 gsmake (runner.lua:126) topshort task(precompile) from package [github.com/gsmake/gsrpc:snapshot] ;compile the gsrpc files
+2016-2-10 14:55:23.0254 gsmake (runner.lua:126) topshort task(resources) from package [github.com/gsmake/gsrpc:snapshot] ;prepare gsrpc compiler
+2016-2-10 14:55:23.0255 gsmake (runner.lua:70) invoke task(resources)
+2016-2-10 14:55:23.0255 gsmake (runner.lua:73) 	from package [github.com/gsmake/gsrpc:snapshot] ...
+2016-2-10 14:55:23.0315 gsmake (runner.lua:46) register taskgroup(test) :
+2016-2-10 14:55:23.0316 gsmake (runner.lua:48) 	from package [github.com/gsmake/golang:snapshot]
+2016-2-10 14:55:23.0316 gsmake (runner.lua:46) register taskgroup(gorun) :
+2016-2-10 14:55:23.0317 gsmake (runner.lua:48) 	from package [github.com/gsmake/golang:snapshot]
+2016-2-10 14:55:23.0318 gsmake (runner.lua:46) register taskgroup(precompile) :
+2016-2-10 14:55:23.0318 gsmake (runner.lua:48) 	from package [github.com/gsmake/golang:snapshot]
+2016-2-10 14:55:23.0319 gsmake (runner.lua:46) register taskgroup(resources) :
+2016-2-10 14:55:23.0320 gsmake (runner.lua:48) 	from package [github.com/gsmake/golang:snapshot]
+2016-2-10 14:55:23.0320 gsmake (runner.lua:46) register taskgroup(compile) :
+2016-2-10 14:55:23.0321 gsmake (runner.lua:48) 	from package [github.com/gsmake/golang:snapshot]
+2016-2-10 14:55:23.0321 gsmake (runner.lua:46) register taskgroup(install) :
+2016-2-10 14:55:23.0322 gsmake (runner.lua:48) 	from package [github.com/gsmake/golang:snapshot]
+2016-2-10 14:55:23.0323 gsmake (runner.lua:46) register taskgroup(gopath) :
+2016-2-10 14:55:23.0323 gsmake (runner.lua:48) 	from package [github.com/gsmake/golang:snapshot]
+2016-2-10 14:55:23.0324 gsmake (runner.lua:126) topshort task(install) from package [github.com/gsmake/golang:snapshot] ;golang package install package
+2016-2-10 14:55:23.0325 gsmake (runner.lua:126) topshort task(compile) from package [github.com/gsmake/golang:snapshot] ;golang package compile task
+2016-2-10 14:55:23.0325 gsmake (runner.lua:126) topshort task(precompile) from package [github.com/gsmake/golang:snapshot] ;golang precompile task
+2016-2-10 14:55:23.0326 gsmake (runner.lua:126) topshort task(resources) from package [github.com/gsmake/golang:snapshot] ;prepare dependencies package
+2016-2-10 14:55:23.0326 gsmake (runner.lua:70) invoke task(resources)
+2016-2-10 14:55:23.0327 gsmake (runner.lua:73) 	from package [github.com/gsmake/golang:snapshot] ...
+2016-2-10 14:55:23.0435 gsmake (runner.lua:86) 	from package [github.com/gsmake/golang:snapshot] -- success
+2016-2-10 14:55:23.0436 gsmake (runner.lua:89) invoke task(resources) -- success
+2016-2-10 14:55:23.0437 gsmake (runner.lua:70) invoke task(precompile)
+2016-2-10 14:55:23.0437 gsmake (runner.lua:73) 	from package [github.com/gsmake/golang:snapshot] ...
+2016-2-10 14:55:23.0439 gsmake (runner.lua:86) 	from package [github.com/gsmake/golang:snapshot] -- success
+2016-2-10 14:55:23.0439 gsmake (runner.lua:89) invoke task(precompile) -- success
+2016-2-10 14:55:23.0440 gsmake (runner.lua:70) invoke task(compile)
+2016-2-10 14:55:23.0441 gsmake (runner.lua:73) 	from package [github.com/gsmake/golang:snapshot] ...
+2016-2-10 14:55:26.0218 gsmake (runner.lua:86) 	from package [github.com/gsmake/golang:snapshot] -- success
+2016-2-10 14:55:26.0219 gsmake (runner.lua:89) invoke task(compile) -- success
+2016-2-10 14:55:26.0220 gsmake (runner.lua:70) invoke task(install)
+2016-2-10 14:55:26.0220 gsmake (runner.lua:73) 	from package [github.com/gsmake/golang:snapshot] ...
+2016-2-10 14:55:26.0235 gsmake (runner.lua:86) 	from package [github.com/gsmake/golang:snapshot] -- success
+2016-2-10 14:55:26.0236 gsmake (runner.lua:89) invoke task(install) -- success
+2016-2-10 14:55:26.0237 gsmake (runner.lua:86) 	from package [github.com/gsmake/gsrpc:snapshot] -- success
+2016-2-10 14:55:26.0237 gsmake (runner.lua:89) invoke task(resources) -- success
+2016-2-10 14:55:26.0238 gsmake (runner.lua:70) invoke task(precompile)
+2016-2-10 14:55:26.0239 gsmake (runner.lua:73) 	from package [github.com/gsmake/gsrpc:snapshot] ...
+2016-2-10 14:55:27.0244 gsmake (runner.lua:86) 	from package [github.com/gsmake/gsrpc:snapshot] -- success
+2016-2-10 14:55:27.0245 gsmake (runner.lua:89) invoke task(precompile) -- success

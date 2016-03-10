@@ -1,0 +1,116 @@
+2016-2-10 16:32:56.0618 gsmake (runner.lua:46) register taskgroup(precompile) :
+2016-2-10 16:32:56.0618 gsmake (runner.lua:48) 	from package [github.com/gsmake/gsrpc:snapshot]
+2016-2-10 16:32:56.0619 gsmake (runner.lua:46) register taskgroup(resources) :
+2016-2-10 16:32:56.0619 gsmake (runner.lua:48) 	from package [github.com/gsmake/gsrpc:snapshot]
+2016-2-10 16:32:56.0620 gsmake (runner.lua:46) register taskgroup(repo) :
+2016-2-10 16:32:56.0621 gsmake (runner.lua:48) 	from package [github.com/gsmake/commands:snapshot]
+2016-2-10 16:32:56.0621 gsmake (runner.lua:46) register taskgroup(update) :
+2016-2-10 16:32:56.0622 gsmake (runner.lua:48) 	from package [github.com/gsmake/commands:snapshot]
+2016-2-10 16:32:56.0623 gsmake (runner.lua:46) register taskgroup(list) :
+2016-2-10 16:32:56.0623 gsmake (runner.lua:48) 	from package [github.com/gsmake/commands:snapshot]
+2016-2-10 16:32:56.0624 gsmake (runner.lua:46) register taskgroup(cache) :
+2016-2-10 16:32:56.0625 gsmake (runner.lua:48) 	from package [github.com/gsmake/commands:snapshot]
+2016-2-10 16:32:56.0625 gsmake (runner.lua:126) topshort task(precompile) from package [github.com/gsmake/gsrpc:snapshot] ;compile the gsrpc files
+2016-2-10 16:32:56.0626 gsmake (runner.lua:126) topshort task(resources) from package [github.com/gsmake/gsrpc:snapshot] ;prepare gsrpc compiler
+2016-2-10 16:32:56.0626 gsmake (runner.lua:70) invoke task(resources)
+2016-2-10 16:32:56.0627 gsmake (runner.lua:73) 	from package [github.com/gsmake/gsrpc:snapshot] ...
+2016-2-10 16:32:56.0681 gsmake (runner.lua:46) register taskgroup(precompile) :
+2016-2-10 16:32:56.0682 gsmake (runner.lua:48) 	from package [github.com/gsmake/golang:snapshot]
+2016-2-10 16:32:56.0683 gsmake (runner.lua:46) register taskgroup(gorun) :
+2016-2-10 16:32:56.0684 gsmake (runner.lua:48) 	from package [github.com/gsmake/golang:snapshot]
+2016-2-10 16:32:56.0684 gsmake (runner.lua:46) register taskgroup(test) :
+2016-2-10 16:32:56.0685 gsmake (runner.lua:48) 	from package [github.com/gsmake/golang:snapshot]
+2016-2-10 16:32:56.0686 gsmake (runner.lua:46) register taskgroup(install) :
+2016-2-10 16:32:56.0686 gsmake (runner.lua:48) 	from package [github.com/gsmake/golang:snapshot]
+2016-2-10 16:32:56.0687 gsmake (runner.lua:46) register taskgroup(compile) :
+2016-2-10 16:32:56.0687 gsmake (runner.lua:48) 	from package [github.com/gsmake/golang:snapshot]
+2016-2-10 16:32:56.0688 gsmake (runner.lua:46) register taskgroup(resources) :
+2016-2-10 16:32:56.0689 gsmake (runner.lua:48) 	from package [github.com/gsmake/golang:snapshot]
+2016-2-10 16:32:56.0689 gsmake (runner.lua:46) register taskgroup(gopath) :
+2016-2-10 16:32:56.0690 gsmake (runner.lua:48) 	from package [github.com/gsmake/golang:snapshot]
+2016-2-10 16:32:56.0690 gsmake (runner.lua:126) topshort task(install) from package [github.com/gsmake/golang:snapshot] ;golang package install package
+2016-2-10 16:32:56.0691 gsmake (runner.lua:126) topshort task(compile) from package [github.com/gsmake/golang:snapshot] ;golang package compile task
+2016-2-10 16:32:56.0692 gsmake (runner.lua:126) topshort task(precompile) from package [github.com/gsmake/golang:snapshot] ;golang precompile task
+2016-2-10 16:32:56.0693 gsmake (runner.lua:126) topshort task(resources) from package [github.com/gsmake/golang:snapshot] ;prepare dependencies package
+2016-2-10 16:32:56.0693 gsmake (runner.lua:70) invoke task(resources)
+2016-2-10 16:32:56.0694 gsmake (runner.lua:73) 	from package [github.com/gsmake/golang:snapshot] ...
+2016-2-10 16:32:56.0799 gsmake (runner.lua:86) 	from package [github.com/gsmake/golang:snapshot] -- success
+2016-2-10 16:32:56.0799 gsmake (runner.lua:89) invoke task(resources) -- success
+2016-2-10 16:32:56.0801 gsmake (runner.lua:70) invoke task(precompile)
+2016-2-10 16:32:56.0801 gsmake (runner.lua:73) 	from package [github.com/gsmake/golang:snapshot] ...
+2016-2-10 16:32:56.0803 gsmake (runner.lua:86) 	from package [github.com/gsmake/golang:snapshot] -- success
+2016-2-10 16:32:56.0803 gsmake (runner.lua:89) invoke task(precompile) -- success
+2016-2-10 16:32:56.0804 gsmake (runner.lua:70) invoke task(compile)
+2016-2-10 16:32:56.0805 gsmake (runner.lua:73) 	from package [github.com/gsmake/golang:snapshot] ...
+2016-2-10 16:32:59.0376 gsmake (runner.lua:86) 	from package [github.com/gsmake/golang:snapshot] -- success
+2016-2-10 16:32:59.0376 gsmake (runner.lua:89) invoke task(compile) -- success
+2016-2-10 16:32:59.0377 gsmake (runner.lua:70) invoke task(install)
+2016-2-10 16:32:59.0378 gsmake (runner.lua:73) 	from package [github.com/gsmake/golang:snapshot] ...
+2016-2-10 16:32:59.0393 gsmake (runner.lua:86) 	from package [github.com/gsmake/golang:snapshot] -- success
+2016-2-10 16:32:59.0393 gsmake (runner.lua:89) invoke task(install) -- success
+2016-2-10 16:32:59.0394 gsmake (runner.lua:86) 	from package [github.com/gsmake/gsrpc:snapshot] -- success
+2016-2-10 16:32:59.0395 gsmake (runner.lua:89) invoke task(resources) -- success
+2016-2-10 16:32:59.0395 gsmake (runner.lua:70) invoke task(precompile)
+2016-2-10 16:32:59.0396 gsmake (runner.lua:73) 	from package [github.com/gsmake/gsrpc:snapshot] ...
+2016-2-10 16:32:59.0518 gsmake (runner.lua:46) register taskgroup(sync_update) :
+2016-2-10 16:32:59.0519 gsmake (runner.lua:48) 	from package [github.com/gsmake/git:snapshot]
+2016-2-10 16:32:59.0519 gsmake (runner.lua:46) register taskgroup(sync_init) :
+2016-2-10 16:32:59.0520 gsmake (runner.lua:48) 	from package [github.com/gsmake/git:snapshot]
+2016-2-10 16:32:59.0520 gsmake (runner.lua:46) register taskgroup(install) :
+2016-2-10 16:32:59.0521 gsmake (runner.lua:48) 	from package [github.com/gsmake/lua:snapshot]
+2016-2-10 16:32:59.0522 gsmake (runner.lua:46) register taskgroup(sync_source) :
+2016-2-10 16:32:59.0522 gsmake (runner.lua:48) 	from package [github.com/gsmake/git:snapshot]
+2016-2-10 16:32:59.0523 gsmake (runner.lua:46) register taskgroup(resources) :
+2016-2-10 16:32:59.0524 gsmake (runner.lua:48) 	from package [github.com/gsmake/lua:snapshot]
+2016-2-10 16:32:59.0524 gsmake (runner.lua:46) register taskgroup(sync_remote) :
+2016-2-10 16:32:59.0525 gsmake (runner.lua:48) 	from package [github.com/gsmake/git:snapshot]
+2016-2-10 16:32:59.0525 gsmake (runner.lua:126) topshort task(sync_source) from package [github.com/gsmake/git:snapshot] ;git downloader#sync_source
+2016-2-10 16:32:59.0526 gsmake (runner.lua:126) topshort task(sync_init) from package [github.com/gsmake/git:snapshot] ;
+2016-2-10 16:32:59.0527 gsmake (runner.lua:70) invoke task(sync_init)
+2016-2-10 16:32:59.0527 gsmake (runner.lua:73) 	from package [github.com/gsmake/git:snapshot] ...
+2016-2-10 16:32:59.0568 gsmake (runner.lua:86) 	from package [github.com/gsmake/git:snapshot] -- success
+2016-2-10 16:32:59.0569 gsmake (runner.lua:89) invoke task(sync_init) -- success
+2016-2-10 16:32:59.0569 gsmake (runner.lua:70) invoke task(sync_source)
+2016-2-10 16:32:59.0570 gsmake (runner.lua:73) 	from package [github.com/gsmake/git:snapshot] ...
+2016-2-10 16:33:6.0022 gsmake (runner.lua:86) 	from package [github.com/gsmake/git:snapshot] -- success
+2016-2-10 16:33:6.0023 gsmake (runner.lua:89) invoke task(sync_source) -- success
+2016-2-10 16:33:6.0260 gsmake (runner.lua:46) register taskgroup(resources) :
+2016-2-10 16:33:6.0261 gsmake (runner.lua:48) 	from package [github.com/gsmake/lua:snapshot]
+2016-2-10 16:33:6.0261 gsmake (runner.lua:46) register taskgroup(install) :
+2016-2-10 16:33:6.0262 gsmake (runner.lua:48) 	from package [github.com/gsmake/lua:snapshot]
+2016-2-10 16:33:6.0263 gsmake (runner.lua:126) topshort task(install) from package [github.com/gsmake/lua:snapshot] ;lua language install task
+2016-2-10 16:33:6.0263 gsmake (runner.lua:126) topshort task(resources) from package [github.com/gsmake/lua:snapshot] ;prepare lua project's resources
+2016-2-10 16:33:6.0264 gsmake (runner.lua:70) invoke task(resources)
+2016-2-10 16:33:6.0264 gsmake (runner.lua:73) 	from package [github.com/gsmake/lua:snapshot] ...
+2016-2-10 16:33:6.0265 gsmake (runner.lua:86) 	from package [github.com/gsmake/lua:snapshot] -- success
+2016-2-10 16:33:6.0266 gsmake (runner.lua:89) invoke task(resources) -- success
+2016-2-10 16:33:6.0267 gsmake (runner.lua:70) invoke task(install)
+2016-2-10 16:33:6.0267 gsmake (runner.lua:73) 	from package [github.com/gsmake/lua:snapshot] ...
+2016-2-10 16:33:6.0299 gsmake (runner.lua:86) 	from package [github.com/gsmake/lua:snapshot] -- success
+2016-2-10 16:33:6.0300 gsmake (runner.lua:89) invoke task(install) -- success
+2016-2-10 16:33:6.0367 gsmake (runner.lua:46) register taskgroup(sync_update) :
+2016-2-10 16:33:6.0369 gsmake (runner.lua:48) 	from package [github.com/gsmake/git:snapshot]
+2016-2-10 16:33:6.0370 gsmake (runner.lua:46) register taskgroup(sync_init) :
+2016-2-10 16:33:6.0372 gsmake (runner.lua:48) 	from package [github.com/gsmake/git:snapshot]
+2016-2-10 16:33:6.0373 gsmake (runner.lua:46) register taskgroup(install) :
+2016-2-10 16:33:6.0374 gsmake (runner.lua:48) 	from package [github.com/gsmake/lua:snapshot]
+2016-2-10 16:33:6.0375 gsmake (runner.lua:48) 	from package [github.com/gsmake/lua:snapshot]
+2016-2-10 16:33:6.0377 gsmake (runner.lua:46) register taskgroup(sync_source) :
+2016-2-10 16:33:6.0378 gsmake (runner.lua:48) 	from package [github.com/gsmake/git:snapshot]
+2016-2-10 16:33:6.0379 gsmake (runner.lua:46) register taskgroup(resources) :
+2016-2-10 16:33:6.0381 gsmake (runner.lua:48) 	from package [github.com/gsmake/lua:snapshot]
+2016-2-10 16:33:6.0382 gsmake (runner.lua:48) 	from package [github.com/gsmake/lua:snapshot]
+2016-2-10 16:33:6.0383 gsmake (runner.lua:46) register taskgroup(sync_remote) :
+2016-2-10 16:33:6.0385 gsmake (runner.lua:48) 	from package [github.com/gsmake/git:snapshot]
+2016-2-10 16:33:6.0386 gsmake (runner.lua:126) topshort task(sync_source) from package [github.com/gsmake/git:snapshot] ;git downloader#sync_source
+2016-2-10 16:33:6.0388 gsmake (runner.lua:126) topshort task(sync_init) from package [github.com/gsmake/git:snapshot] ;
+2016-2-10 16:33:6.0389 gsmake (runner.lua:70) invoke task(sync_init)
+2016-2-10 16:33:6.0390 gsmake (runner.lua:73) 	from package [github.com/gsmake/git:snapshot] ...
+2016-2-10 16:33:6.0440 gsmake (runner.lua:86) 	from package [github.com/gsmake/git:snapshot] -- success
+2016-2-10 16:33:6.0440 gsmake (runner.lua:89) invoke task(sync_init) -- success
+2016-2-10 16:33:6.0441 gsmake (runner.lua:70) invoke task(sync_source)
+2016-2-10 16:33:6.0442 gsmake (runner.lua:73) 	from package [github.com/gsmake/git:snapshot] ...
+2016-2-10 16:33:7.0717 gsmake (runner.lua:86) 	from package [github.com/gsmake/git:snapshot] -- success
+2016-2-10 16:33:7.0718 gsmake (runner.lua:89) invoke task(sync_source) -- success
+2016-2-10 16:33:9.0589 gsmake (runner.lua:86) 	from package [github.com/gsmake/gsrpc:snapshot] -- success
+2016-2-10 16:33:9.0590 gsmake (runner.lua:89) invoke task(precompile) -- success
